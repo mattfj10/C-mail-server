@@ -1,0 +1,3 @@
+/home/tornado711/CLionProjects/Cmail/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/tornado711/CLionProjects/Cmail/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tornado711/CLionProjects/Cmail/cmake-build-debug/CMakeFiles/untitled.dir
