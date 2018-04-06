@@ -1,4 +1,11 @@
-#include "server.h"
+#include "module.h"
+
+void* skip(list* head, int index)
+{
+    while (index-- > 0)
+      head = head->next;
+    return head->ref;
+}
 
 list* create_entry(void* location, list* next)
 {
@@ -6,7 +13,7 @@ list* create_entry(void* location, list* next)
      entry->ref = location;
      entry->next = next;
      return entry;
- }
+}
 
 list* prepend(list* head, void* location)
 {

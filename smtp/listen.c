@@ -1,4 +1,8 @@
+//Imports Local
 #include "server.h"
+//Imports External
+#include <sys/socket.h>
+#include <fcntl.h>
 
 int bind_socket(int sck_fd, short port)
 {
