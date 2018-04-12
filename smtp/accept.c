@@ -34,7 +34,7 @@ void init_connection()
   char str[INET_ADDRSTRLEN];
   clients = append(clients, current);
   wrap_conn* working = skip(clients,0);
-  printf("Wrap Conn: %p\n", working);
   inet_ntop(AF_INET, &working->specs.sin_addr, str, INET_ADDRSTRLEN);
+  printf("Wrap Conn: %p\n", working);
   printf("Addr: %s\n",str);
 }
